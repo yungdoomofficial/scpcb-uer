@@ -1,11 +1,5 @@
-; ~ RMESH Model Viewer for SCP - Containment Breach Ultimate Edition Reborn v1.5.6
+; ~ RMESH Model Viewer
 ;----------------------------------------------------------------------------------------------------------------------------------------------------
-; ~ Contact us: https://discord.gg/n7KdW4u
-;----------------------------------------------------------------------------------------------------------------------------------------------------
-; ~ IniController - A part of BlitzToolBox
-; ~ Write & Read ini file.
-; ~ v1.08 2024.9.16
-; ~ https://github.com/ZiYueCommentary/BlitzToolbox
 
 Function IniWriteBuffer%(File$, ClearPrevious% = True)
 	IniWriteBuffer_(File, ClearPrevious)

@@ -663,7 +663,31 @@ Function LoadRoomTemplateMeshes%()
 	
 	Local rt.RoomTemplates, i%
 	Local MT_Prefix$ = "maintenance tunnel "
-
+	
+	rt.RoomTemplates = New RoomTemplates
+	rt\OBJPath = "GFX\Map\mt1_generator.rmesh"
+	rt\Name = MT_Prefix + "endroom"
+	rt\Shape = ROOM1
+	rt.RoomTemplates = New RoomTemplates
+	rt\OBJPath = "GFX\Map\mt2.rmesh"
+	rt\Name = MT_Prefix + "corridor"
+	rt\Shape = ROOM2
+	rt.RoomTemplates = New RoomTemplates
+	rt\OBJPath = "GFX\Map\mt2c.rmesh"
+	rt\Name = MT_Prefix + "corner"
+	rt\Shape = ROOM2C
+	rt.RoomTemplates = New RoomTemplates
+	rt\OBJPath = "GFX\Map\mt3.rmesh"
+	rt\Name = MT_Prefix + "t-shaped room"
+	rt\Shape = ROOM3
+	rt.RoomTemplates = New RoomTemplates
+	rt\OBJPath = "GFX\Map\mt4.rmesh"
+	rt\Name = MT_Prefix + "4-way room"
+	rt\Shape = ROOM4
+	rt.RoomTemplates = New RoomTemplates
+	rt\OBJPath = "GFX\Map\mt2_elevator.rmesh"
+	rt\Name = MT_Prefix + "elevator"
+	rt\Shape = ROOM2
 	rt.RoomTemplates = New RoomTemplates
 	rt\OBJPath = "GFX\Map\mt1_generator.rmesh"
 	rt\Name = MT_Prefix + "generator room"

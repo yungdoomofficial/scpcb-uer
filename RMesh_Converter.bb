@@ -1,6 +1,4 @@
-; ~ Converter Universal for SCP - Containment Breach Ultimate Edition Reborn v1.5.6
-;----------------------------------------------------------------------------------------------------------------------------------------------------
-; ~ Contact us: https://discord.gg/n7KdW4u
+; ~ Converter Universal
 ;----------------------------------------------------------------------------------------------------------------------------------------------------
 
 Function IniWriteBuffer%(File$, ClearPrevious% = True)
