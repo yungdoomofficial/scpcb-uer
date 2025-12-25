@@ -6,4 +6,3 @@ This mod is a fork of SCP - Containment Breach, based on the works of the SCP Fo
 -	[Blitz3D TSS](https://github.com/yungdoomofficial/Blitz3D)
 -	[IDEal for Blitz3D](https://web.archive.org/web/20130827150202/http://fungamesfactory.com/download.php?get=IDEalSetup_0.8.94.exe)
 -	[BlitzPlus](https://blitzplus.software.informer.com/download/)
--	[CBRE-EX](https://github.com/AnalogFeelings/cbre-ex/releases)
